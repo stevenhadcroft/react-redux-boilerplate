@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa58c49-eb09-4894-9212-b106c869a917" name="Default" comment="initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Black.otf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.eot" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.otf" />
@@ -24,45 +23,13 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.woff" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-SemiBold.otf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Thin.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mtbbuddy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/New folder/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/New folder/uiState.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Nav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/componentsui/Button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/components/Nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/pages/Home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/pages/Map.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Bold.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Light.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Medium.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/Montserrat-Regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/Map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/browserHistory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/New folder/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/New folder/uiState.js" afterPath="$PROJECT_DIR$/src/reducers/uiState.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -110,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -133,10 +100,22 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/New folder/index.js">
+        <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiState.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/uiState.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -147,16 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -256,11 +225,6 @@
               <item name="mtbbuddy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mtbbuddy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mtbbuddy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtbbuddy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -324,17 +288,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515420120835</updated>
-      <workItem from="1515420122329" duration="4172000" />
+      <workItem from="1515420122329" duration="5041000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1515424313645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515424313645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4172000" />
+    <option name="totallyTimeSpent" value="5041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.78723407" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.78723407" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -464,14 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/uiState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -554,16 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -572,10 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/New folder/index.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -588,11 +542,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/reducers/uiState.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
