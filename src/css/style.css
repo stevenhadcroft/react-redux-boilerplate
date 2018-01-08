@@ -1,0 +1,9 @@
+html, body {
+    font-family: Montserrat-Light;
+    font-size: 18px;
+}
+
+body {
+    background: #ccc;
+    height:100%;
+}
